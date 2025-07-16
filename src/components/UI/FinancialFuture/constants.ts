@@ -2,56 +2,56 @@ import ic_money_send from '../../../../public/svgs/ic_money_send.svg';
 import ic_wallet_minus from '../../../../public/svgs/ic_wallet_minus.svg';
 export const cardsInfo = [
   {
-    title: 'Spend Better',
+    title: 'Simple, Transparent Pricing',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'Choose the plan that fits your business. Start free and upgrade as you grow, with clear commission rates.',
     icon: ic_money_send,
   },
   {
-    title: 'Invest Better',
+    title: 'Scale Your Business',
     details:
-      'Set and achieve financial goals with ease, automate your savings, and watch your money grow without the stress.',
+      'From single products to full catalogs, BizzBuyNow grows with you. Advanced tools unlock as you succeed.',
     icon: ic_wallet_minus,
   },
 ];
 
 export const stats = [
   {
+    number: '2,000+',
+    subtitle: 'active sellers',
+  },
+  {
+    number: '100,000+',
+    subtitle: 'products sold',
+  },
+  {
     number: '50+',
-    subtitle: 'cities',
+    subtitle: 'countries',
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
-  },
-  {
-    number: '3M+',
-    subtitle: 'users',
-  },
-  {
-    number: '5+',
-    subtitle: 'user ratings',
+    number: '4.8★',
+    subtitle: 'seller rating',
   },
 ];
 
 // For desktop
 export const desktopHeaderPhrase = [
-  'Confidently Shape Your',
-  'Financial Future',
+  'Confidently Build Your',
+  'E-commerce Empire',
 ];
 export const desktopParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape your financial future. Our modern',
-  'approach simplifies saving and investing, making it easier than ever.',
+  'At BizzBuyNow, we empower you to confidently build your online business. Our modern',
+  'approach simplifies store creation and scaling, making it easier than ever.',
 ];
 
 // For mobile
 export const mobileHeaderPhrase = [
-  'Confidently Shape',
-  ' Your Financial Future',
+  'Confidently Build',
+  ' Your E-commerce Empire',
 ];
 export const mobileParagraphPhrase = [
-  'At RAFT, we empower you to confidently shape',
-  'your financial future. Our modern approach',
-  'simplifies saving and investing, making it easier',
+  'At BizzBuyNow, we empower you to confidently build',
+  'your online business. Our modern approach',
+  'simplifies store creation and scaling, making it easier',
   'than ever.',
 ];

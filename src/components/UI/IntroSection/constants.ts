@@ -3,39 +3,39 @@ import ic_identification from '../../../../public/svgs/ic_identification.svg';
 import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ["Introducing RAFT's Next-", 'Gen Cards'];
+export const desktopHeaderPhrase = ["Introducing BizzBuyNow's Next-", 'Gen Features'];
 export const desktopParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards. Elevate your banking",
+  " Discover BizzBuyNow's latest innovation – our AI-powered tools. Elevate your selling",
   'experience with cutting-edge features, security, and unprecedented',
   'convenience.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Introducing RAFT's", 'Next-Gen Cards'];
+export const mobileHeaderPhrase = ["Introducing BizzBuyNow's", 'Next-Gen Features'];
 export const mobileParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards.",
-  ' Elevate your banking experience with cutting-edge',
+  " Discover BizzBuyNow's latest innovation – our AI-powered tools.",
+  ' Elevate your selling experience with cutting-edge',
   'features, security, and unprecedented',
   'convenience.',
 ];
 
 export const edges = [
   {
-    point: 'Contactless Technology',
+    point: 'AI Store Optimization',
     details:
-      'Our new cards come equipped with contactless technology, allowing you to make swift, secure payments with a simple tap.',
+      'Our AI analyzes your store performance and suggests improvements for better conversion rates and sales.',
     icon: ic_document_duplicate,
   },
   {
-    point: 'Personalization',
+    point: 'Custom Branding Tools',
     details:
-      'Customize your card to reflect your unique style. Choose from a range of designs that suit your personality.',
+      'Customize your store to reflect your unique brand. Choose from professional themes that suit your business.',
     icon: ic_identification,
   },
   {
-    point: 'Enhanced Security',
+    point: 'Advanced Security',
     details:
-      'Your peace of mind is our priority. Our cards feature advanced security measures to protect your transactions and data.',
+      'Your business security is our priority. Advanced fraud detection and KYC verification protect your transactions.',
     icon: ic_lock_closed,
   },
 ];

@@ -4,53 +4,53 @@ import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Why Thousands Choose', 'BizzBuyNow'];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  'We believe that launching your online business should be effortless and profitable.',
+  "That's why we offer the tools and freedom you deserve.",
 ];
 export const desktopBriefNotePhrase = [
-  'Smart investments,',
-  'secure payments, and',
-  'expert guidance, all in',
+  'Frictionless store creation,',
+  'transparent pricing, and',
+  'trusted by 2,000+ sellers, all in',
   'one place.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+export const mobileHeaderPhrase = ['Why Thousands', 'Choose BizzBuyNow'];
 export const mobileParagraphPhrase = [
-  'We believe that managing your finances should be',
-  "effortless and cost-effective. That's why we offer",
-  ' you the freedom you deserve.',
+  'We believe that launching your online business should be',
+  "effortless and profitable. That's why we offer",
+  ' the tools and freedom you deserve.',
 ];
 
 export const mobileBriefNotePhrase = [
-  'Smart',
-  ' investments,',
-  'secure',
-  ' payments,',
-  'and expert',
-  'guidance, all',
+  'Frictionless',
+  ' store creation,',
+  'transparent',
+  ' pricing,',
+  'and trusted by',
+  '2,000+ sellers, all',
   'in one place.',
 ];
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
+    point: 'Frictionless store creation and onboarding',
     details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
+      'Get your store live in minutes with our AI-powered setup wizard. No technical skills required.',
     icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
+    point: 'Transparent pricing with built-in tools',
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
+      'Clear pricing with integrated payment processing, shipping tools, and inventory management included.',
     icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
+    point: 'Trusted by 2,000+ independent sellers',
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
+      'Join thousands of successful vendors who trust BizzBuyNow to power their online businesses.',
     icon: ic_arrows_left_right,
   },
 ];

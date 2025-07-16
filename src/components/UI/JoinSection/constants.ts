@@ -12,34 +12,34 @@ export type Props = {
 export const testimonials = [
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
+      "I launched my skincare store with BizzBuyNow and made my first sale in 24 hours. The AI setup wizard made everything so simple. Insane!",
+    person: 'Amanda O.',
     avatar: robert_fox,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
+      "The dropshipping integration saved me weeks of setup. Everything just works seamlessly with multiple suppliers. BizzBuyNow is a game-changer.",
+    person: 'David M.',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
+      "As a first-time seller, I was overwhelmed by the options. BizzBuyNow's support team guided me through everything. Now I'm making consistent sales!",
     person: 'Esther Howard',
     avatar: esther_howard,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
+      "The fraud protection gives me peace of mind. I can focus on growing my business knowing BizzBuyNow handles the security side perfectly.",
     person: 'Cameron Williamson',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
+      "The AI optimization suggestions increased my conversion rate by 40%. BizzBuyNow doesn't just host your store, it helps you succeed.",
     person: 'Robert Fox',
     avatar: robert_fox,
   },
 ];
 
-export const desktopHeaderPhrase = ['Join over 3 million', 'members'];
+export const desktopHeaderPhrase = ['Join over 2,000', 'successful sellers'];

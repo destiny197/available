@@ -8,16 +8,16 @@ import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 
 const linksArr = [
   {
-    title: 'About us',
-    links: ['Our Company', 'Careers', 'Press kits'],
+    title: 'Company',
+    links: ['About', 'Help Center', 'Trust Center'],
   },
   {
     title: 'Legal',
-    links: ['Terms of use', 'Privacy policy', 'About us'],
+    links: ['Terms of Service', 'Privacy Policy', 'Trust Center'],
   },
   {
-    title: 'About us',
-    links: ['Contact us', 'FAQ'],
+    title: 'Support',
+    links: ['Help Center', 'Contact Us'],
   },
 ];
 
@@ -53,7 +53,7 @@ const Footer = () => {
                 <Image src={qr_code} alt="qr_code" />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>Scan to download BizzBuyNow on the Playstore and Appstore.</p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
@@ -80,7 +80,7 @@ const Footer = () => {
             </Translator>
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              BizzBuyNow Inc.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>
