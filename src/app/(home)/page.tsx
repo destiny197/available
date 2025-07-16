@@ -7,6 +7,7 @@ import {
   IntroSection,
   JoinSection,
   OffersSection,
+  PricingTable,
 } from '@/components';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <FinancialFuture />
       <IntroSection />
       <JoinSection />
+      <PricingTable />
       <FAQ />
     </main>
   );
