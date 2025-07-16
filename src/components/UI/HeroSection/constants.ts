@@ -1,13 +1,13 @@
 // For desktop
-export const phrases = ['Building the future of', 'banking.'];
+export const phrases = ['Launch Your Online', 'Store in Minutes'];
 export const paragraphPhrases = [
-  "Experience the future of banking with RAFT. We're here to",
-  'empower your financial journey.',
+  'BizzBuyNow helps you start, manage, and scale your e-commerce business',
+  '— all in one AI-powered platform for vendors and dropshippers.',
 ];
 
 // For mobile
-export const mobilePhrases = ['Building the future', 'of banking'];
+export const mobilePhrases = ['Launch Your Online', 'Store in Minutes'];
 export const mobileParagraphPhrases = [
-  "Experience the future of banking with RAFT. We're",
-  'here to empower your financial journey.',
+  'BizzBuyNow helps you start, manage, and scale your e-commerce',
+  'business — all in one AI-powered platform for vendors and dropshippers.',
 ];

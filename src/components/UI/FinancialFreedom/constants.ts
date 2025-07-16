@@ -4,7 +4,7 @@ import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Simple, Transparent', 'Pricing'];
 export const desktopParagraphPhrase = [
   'We believe that managing your finances should be effortless and cost-effective.',
   "That's why we offer you the freedom you deserve.",
@@ -17,7 +17,7 @@ export const desktopBriefNotePhrase = [
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+export const mobileHeaderPhrase = ['Simple, Transparent', 'Pricing'];
 export const mobileParagraphPhrase = [
   'We believe that managing your finances should be',
   "effortless and cost-effective. That's why we offer",
@@ -36,21 +36,18 @@ export const mobileBriefNotePhrase = [
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
-    details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
+    point: 'Free - $0/month',
+    details: 'Start selling with essential tools and 5% commission',
     icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
-    details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
+    point: 'Pro - $15/month',
+    details: 'Advanced tools, 3% commission, email automation',
     icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
-    details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
+    point: 'Premium - $50/month',
+    details: 'Full customization, 1% commission, priority support',
     icon: ic_arrows_left_right,
   },
 ];

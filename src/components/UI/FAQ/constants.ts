@@ -19,23 +19,22 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'Can I use BizzBuyNow for free?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Yes! Our Free plan includes everything you need to start selling.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'What’s the commission structure?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Free plan takes 5%, Pro takes 3%, and Premium only 1% per sale.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
-    answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+    question: 'Do I need to know how to code?',
+    answer: 'Not at all. BizzBuyNow is built for creators, not coders.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Can I customize my store?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes — Premium users can edit themes, and all plans support logo & text edits.',
   },
 ];

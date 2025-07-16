@@ -3,18 +3,15 @@ import smart_investing from '../../../../public/images/smart_investing.png';
 import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
-export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
-];
+export const desktopHeaderPhrases = ['Everything You Need to', 'Sell Smarter'];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
+  'BizzBuyNow offers a world of financial possibilities. From investments to payments,',
   "we've got you covered. Join us and unlock your potential today.",
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
+  'BizzBuyNow offers a world of financial possibilities. From',
   "investments to payments, we've got you covered.",
   'Join us and unlock your potential today.',
 ];
@@ -22,26 +19,26 @@ export const mobileParagraphPhrase = [
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: 'AI-Powered Store Setup',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      'Generate your store’s layout, branding, and essentials in seconds with our onboarding assistant.',
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'Multi-Dropshipping Provider Support',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Connect to multiple product suppliers including CJ, Alibaba, and more — with unified order management.',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'Search & Ranking Optimization',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
+      'Boost product visibility with AI-enhanced search rankings and intelligent tagging.',
   },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'Built-In KYC & Fraud Protection',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Trust is built-in with real-time identity verification and buyer/seller security monitoring.',
   },
 ];

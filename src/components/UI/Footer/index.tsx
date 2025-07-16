@@ -8,16 +8,8 @@ import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 
 const linksArr = [
   {
-    title: 'About us',
-    links: ['Our Company', 'Careers', 'Press kits'],
-  },
-  {
-    title: 'Legal',
-    links: ['Terms of use', 'Privacy policy', 'About us'],
-  },
-  {
-    title: 'About us',
-    links: ['Contact us', 'FAQ'],
+    title: 'Company',
+    links: ['About', 'Help Center', 'Trust Center', 'Privacy Policy', 'Terms of Service'],
   },
 ];
 
@@ -38,6 +30,7 @@ import {
   Translator,
   CopyRight,
 } from './styles';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -53,7 +46,10 @@ const Footer = () => {
                 <Image src={qr_code} alt="qr_code" />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>
+                  Building the future of online commerce — fast, secure, and
+                  vendor-first.
+                </p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
@@ -66,7 +62,11 @@ const Footer = () => {
                   <h3>{l.title}</h3>
                   <LinksContainer>
                     {l.links.map((link, i) => (
-                      <li key={i}>{link}</li>
+                      <li key={i}>
+                        <Link href={`/${link.toLowerCase().replace(/ /g, "-")}`}>
+                          {link}
+                        </Link>
+                      </li>
                     ))}
                   </LinksContainer>
                 </GridColumn>
@@ -79,8 +79,7 @@ const Footer = () => {
               <Image src={ic_chevron_down} alt="chevron down" />
             </Translator>
             <CopyRight>
-              <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              <Image src={ic_copyright} alt="copyright svg" />© 2025 BizzBuyNow Inc.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>
